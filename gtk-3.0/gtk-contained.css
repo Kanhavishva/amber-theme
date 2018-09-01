@@ -848,9 +848,9 @@ notebook > stack:not(:only-child) { background-color: #FFFFFF; }
 /************** Scrollbars * */
 scrollbar { background-color: whitesmoke; border-width: 0; }
 
-* { -GtkScrollbar-has-backward-stepper: true; -GtkScrollbar-has-forward-stepper: true; }
+* { -GtkScrollbar-has-backward-stepper: false; -GtkScrollbar-has-forward-stepper: false; }
 
-scrollbar slider { min-width: 5px; min-height: 5px; margin: -1px; border: 1px solid transparent; border-radius: 99px; background-clip: padding-box; background-color: #8d8d8c; }
+scrollbar slider { min-width: 5px; min-height: 5px; margin: -1px; border: 1px solid transparent; border-radius: 0; background-clip: padding-box; background-color: #8d8d8c; }
 
 scrollbar slider:hover { background-color: #5c5c5c; }
 

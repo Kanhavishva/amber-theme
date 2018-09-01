@@ -2102,8 +2102,8 @@ scrollbar {
   $_overlay_size: 6px;
 
   @at-root * {
-    -GtkScrollbar-has-backward-stepper: true;
-    -GtkScrollbar-has-forward-stepper: true;
+    -GtkScrollbar-has-backward-stepper: false;
+    -GtkScrollbar-has-forward-stepper: false;
   }
 
   background-color: $scrollbar_bg_color;
@@ -2115,7 +2115,7 @@ scrollbar {
     min-height: $_scrollbar_size;
     margin: -1px;
     border: 1px solid transparent; // Needs to be at a minimum of one pixel or hovering will resize the scrollbar
-    border-radius: $circular_radius;
+    border-radius: 0; //$circular_radius;
     background-clip: padding-box;
     background-color: $scrollbar_slider_color;
 
