@@ -2098,7 +2098,7 @@ notebook {
  **************/
 scrollbar {
   $_slider_min_length: 40px;
-  $_scrollbar_size: 14px;
+  $_scrollbar_size: 5px;
   $_overlay_size: 6px;
 
   @at-root * {
